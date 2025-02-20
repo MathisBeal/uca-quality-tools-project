@@ -8,7 +8,9 @@
         "dev": "nodemon src/index.js",
         "prepare": "husky",
         "test": "echo \"No test configured yet\" && exit 0",
-        "format": "npx prettier --write ."
+        "format": "npx prettier --write .",
+        "lint": "npx eslint .",
+        "lint:fix": "npx eslint . --fix"
     },
     "dependencies": {
         "ejs": "^3.1.10",
@@ -17,9 +19,14 @@
     "devDependencies": {
         "@commitlint/cli": "^19.7.1",
         "@commitlint/config-conventional": "^19.7.1",
+        "@eslint/js": "^9.20.0",
+        "eslint": "^9.20.1",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "globals": "^15.15.0",
         "husky": "^9.1.7",
         "nodemon": "^3.1.9",
-        "prettier": "3.5.1"
+        "prettier": "^3.5.1"
     },
     "type": "module"
 }

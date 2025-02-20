@@ -56,3 +56,9 @@ Pour mettre en place le formattage automatique dans VS Code :
 1. On coche "Format On Save"
 
 Et c'est opérationnel !
+
+## ESLint
+
+### Affichage des erreurs dans l'IDE
+
+Dans VS Code, il suffit d'installer l'extension ESLint pour avoir cet affichage.
