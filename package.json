@@ -10,7 +10,8 @@
         "test": "echo \"No test configured yet\" && exit 0",
         "format": "npx prettier --write .",
         "lint": "npx eslint .",
-        "lint:fix": "npx eslint . --fix"
+        "lint:fix": "npx eslint . --fix",
+        "build": "npx tsc --outDir build"
     },
     "dependencies": {
         "ejs": "^3.1.10",
@@ -26,7 +27,8 @@
         "globals": "^15.15.0",
         "husky": "^9.1.7",
         "nodemon": "^3.1.9",
-        "prettier": "^3.5.1"
+        "prettier": "^3.5.1",
+        "typescript": "^5.7.3"
     },
     "type": "module"
 }
