@@ -5,7 +5,9 @@ import prettier from "eslint-config-prettier";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
     {
-        ignores: ["eslint.config.js", "commitlint.config.js"],
+        ignores: ["eslint.config.js", "commitlint.config.js", "build"]
+    },
+    {
         languageOptions: {
             sourceType: "module",
             globals: {
@@ -15,7 +17,7 @@ export default [
         },
         rules: {
             eqeqeq: ["error", "always"],
-            "capitalized-comments": ["error", "always"],
+            "capitalized-comments": ["error", "always"]
         }
     },
     pluginJs.configs.recommended, // Active eslint:recommended
